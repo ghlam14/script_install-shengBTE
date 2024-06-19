@@ -14,4 +14,4 @@ create a directory the copy the present tcsh script (install.sh) with the downlo
         ./install.sh
       
 make sure that the spglib installed;
-  can be found in: ~/.local/lib/python??/site-packages/spglib
+  it can be found in: ~/.local/lib/python??/site-packages/spglib
