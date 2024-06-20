@@ -26,7 +26,7 @@ if [ -f  "$thirdorder" ]; then
                 echo " copy scripts and lib to root dir. ../bin "
                 echo
 
-                for file in   thirdorder_common.py    thirdorder_espresso.py   thirdorder_castep.py   thirdorder_vasp.py 
+                for file in   thirdorder_common.py    thirdorder_espresso.py   thirdorder_castep.py   thirdorder_vasp.py $thirdorder_core
                     do
                         cp $file  ../bin/ 
                         chmod +x  ../bin/$file
